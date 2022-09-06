@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+}
+
+/*index*/
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 300px 500px 300px;
+    
+}
+
+
+
+.head {
+    background: linear-gradient();
+    
+}
+
+body {
+
+    font-family: 'Figtree', sans-serif;
+    background-color: beige;
+    background-size: cover;
+}
+.logo img {
+
+    height: 63px;
+    width: 134px;
+}
+
+.footer{
+    justify-content:center;
+    margin: 3px;
+    padding: 12px;
+    font-size: 13px;
+    
+}
+
+.menuPrincipal {
+    background-color: #E0FAD5;
+    justify-content:end;
+
+}
+
+.menuPrincipal ul {
+    list-style-type: none;
+}
+
+.menuPrincipal ul li {
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+.eslogan {
+    margin: 3px;
+    padding: 12px;
+    font-size: 20px;
+
+}
+
+
+
+
+.fotos {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.foto1 {
+    padding: 5px;
+    margin: 20px 20px;
+
+}
+
+.foto2 {
+    padding: 5px;
+    margin: 20px 20px;
+
+}
+
+.foto3 {
+    padding: 5px;
+    margin: 20px 20px;
+
+} 
+
+
+/*SOBRE NOSOTROS */
+.segundo__titulo {
+    margin: 3px;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #FAF3D5;
+    padding: 20px;
+    margin: 20px 20px;
+    border: solid 3px black;
+}
+
+
+
+
+/* PAISES */
+
+.Paises img {
+    display: block;
+    justify-content: space-between;
+    height: 200px;
+    width: 300px;
+   
+}
+
+
+
+
