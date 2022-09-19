@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    flex-direction: row;
+    
+}
+
+body{
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    padding: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 49%, rgba(0,212,255,1) 100%);
+    text-align: center;
+}
+
+
+
+.menuPrincipal {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(189,222,215,1) 49%, rgba(243,243,249,1) 100%, rgba(28,211,226,1) 100%);
+    justify-content: end;
+
+}
+
+.menuPrincipal ul {
+    list-style-type: none;   
+}
+
+.menuPrincipal ul li {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+
+
+
+.eslogan{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.contenedor{
+    flex: 70%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    color: whitesmoke;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 49%, rgba(0,212,255,1) 100%);
+}
+
+.fotos {
+    flex: auto;
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+   max-height: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    
+
+}
+
+.foto1 {
+    padding: 5px;
+    margin: 20px 20px;
+    
+
+}
+
+.foto2 {
+    padding: 5px;
+    margin: 20px 20px;
+
+}
+
+.foto3 {
+    display: flex;
+    padding: 5px;
+    margin: 20px 20px;
+
+} 
+
+
+
+/* Paises*/
+.contenedorpa{
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 2fr;
+    
+}
+
+.Paises img {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+    
+    
+}
+
+.pais_alemania{
+    text-align: center;
+    color: white;
+    background: rgb(232,255,0);
+background: linear-gradient(0deg, rgba(232,255,0,1) 25%, rgba(207,46,34,1) 53%, rgba(0,0,0,1) 78%);
+padding: 40px 100px;
+    
+}
+.desc_alemania{
+
+    font-weight: normal;
+    padding: 10px 5px;
+    border: 10px 25px;
+    
+
+    
+}
+

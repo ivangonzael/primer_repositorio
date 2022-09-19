@@ -24,11 +24,6 @@ body {
     background-color: beige;
     background-size: cover;
 }
-.logo img {
-
-    height: 63px;
-    width: 134px;
-}
 
 .footer{
     justify-content:center;
@@ -109,10 +104,8 @@ body {
 /* PAISES */
 
 .Paises img {
-    display: block;
-    justify-content: space-between;
-    height: 200px;
-    width: 300px;
+   
+    
    
 }
 
