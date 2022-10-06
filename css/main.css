@@ -13,12 +13,11 @@ body {
 
 header {
   padding: 10px;
-  background: #bdded7;
-  background: linear-gradient(90deg, #bdded7 0%, #bdded7 49%); }
+  background: #f2c744;
+  background: linear-gradient(159deg, #f2c744 0%, #17b169 100%); }
 
 .navegador ul {
-  background: #868080;
-  background: linear-gradient(159deg, #868080 0%, #666968 100%);
+  background-color: #EABD3E;
   font-size: 20px; }
   .navegador ul a {
     color: white; }
@@ -47,7 +46,8 @@ header {
 .footer {
   padding: 20px;
   text-align: center;
-  background: linear-gradient(90deg, #bdded7 0%, #bdded7 49%); }
+  background: #f2c744;
+  background: linear-gradient(159deg, #f2c744 0%, #17b169 100%); }
 
 .fotos {
   flex: auto;
@@ -114,31 +114,28 @@ header {
   font-weight: lighter;
   margin-left: 100px;
   margin-top: 50px;
-  margin-right: 50px; }
+  margin-right: 50px;
+  text-align: 10px;
+  padding: 10px 5px;
+  border: 10px 25px; }
 
 .pais_alemania {
   text-align: 50px;
   color: white;
   padding: 40px 40px;
-  background-color: #c5cfd8; }
-
-.desc_alemania {
-  text-align: 10px;
-  padding: 10px 5px;
-  border: 10px 25px;
-  font-weight: lighter; }
+  background-image: url(../multimedia/ALE.jpg); }
 
 .pais_dinamarca {
   text-align: 50px;
   color: white;
   padding: 40px 40px;
-  background-color: #c5cfd8; }
+  background-image: url(../multimedia/dina.jpg); }
 
 .pais_espana {
   text-align: 50px;
-  color: white;
+  color: black;
   padding: 40px 40px;
-  background-color: #c5cfd8; }
+  background-image: url(../multimedia/espana.jpg); }
 
 .desc_espana {
   text-align: 10px;
@@ -151,7 +148,7 @@ header {
   text-align: 50px;
   color: white;
   padding: 40px 40px;
-  background-color: #c5cfd8; }
+  background-image: url(../multimedia/usa2.jpg); }
 
 .desc_usa {
   text-align: 10px;
